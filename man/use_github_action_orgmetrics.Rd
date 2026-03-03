@@ -25,6 +25,7 @@ Creates a Github workflow file in \code{dir} to automatically deploy your
 'orgmetrics' dashboard.
 }
 \examples{
+\dontrun{
 # Create a workflow file in the default location
 use_github_action_orgmetrics ()
 
@@ -33,5 +34,6 @@ use_github_action_orgmetrics (
     dir = ".github/workflows",
     file_name = "orgmetrics-dashboard.yaml"
 )
+}
 
 }
